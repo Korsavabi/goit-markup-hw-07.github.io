@@ -76,11 +76,13 @@
     outline: none;
     resize: none;
 }
-.form-label:focus-within .form-icon, .form-label:focus-within .form-name {
+.form-label:focus-within .form-icon, .form-label:focus-within .form-name, .form-label:focus-within .form-input{
     fill: $accent-color;
     color: $accent-color;
 }
-
+.form-label:focus-within .form-input, .form-label:focus-within .form__comment{
+    border: 2px solid $accent-color;
+}
 .form__comment:focus::placeholder, .form-input:focus::placeholder {
     color: transparent;
 }
@@ -150,7 +152,6 @@
     top: 8px;
     right: 8px;
 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     &:hover{
         border-color: $accent-color;
