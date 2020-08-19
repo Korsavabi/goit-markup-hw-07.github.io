@@ -1,0 +1,40 @@
+/* Raleway-Bold */
+@font-face {
+  font-family: 'Raleway';
+  src: url("../fonts/relewey/Raleway-Bold/fonts/raleway_bold.woff2") format("woff2"), url("../fonts/relewey/Raleway-Bold/fonts/raleway_bold.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 900;
+}
+
+/* Roboto Light */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto Light/fonts/roboto_light.woff2") format("woff2"), url("../fonts/roboto/Roboto Light/fonts/roboto_light.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 300;
+}
+
+/* Roboto Regular */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto Regular/fonts/roboto_regular.woff2") format("woff2"), url("../fonts/roboto/Roboto Regular/fonts/roboto_regular.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 400;
+}
+
+/* Roboto Medium */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto Medium/fonts/roboto_medium.woff2") format("woff2"), url("../fonts/roboto/Roboto Medium/fonts/roboto_medium.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 500;
+}
+
+/* Roboto Bold */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/roboto/Roboto Bold/fonts/roboto_bold.woff2") format("woff2"), url("../fonts/roboto/Roboto Bold/fonts/roboto_bold.woff") format("woff");
+  /* Firefox >= 3.6, any other modern browser */
+  font-weight: 900;
+}
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,51 @@
+/*======================================== Постоянные клиенты ========================================*/
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.client-list{
+    display: flex;
+}
+.client-list-item{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 30px *5)/6);
+    margin-right: 30px;
+    &:last-child{
+    margin-right: 0;
+}
+}
+.client-item-list-link{
+    width: 170px;
+    height: 90px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    border: 1px solid $team-label-background;
+    box-sizing: border-box;
+    border-radius: 4px;
+    &:hover{
+    border-color: $blue-blue-background-color;
+    &:hover .client-item-list-link-icon{
+    fill: $blue-blue-background-color;
+}
+}
+}
+.client-item-list-link-icon{
+    width: 45px;
+    height: 50px;
+    fill: #AFB1B8;
+}
+.icon-logo-four{
+    width: 80px;
+    height: 42px;
+}
+.icon-logo-five{
+    width: 59px;
+    height: 50px;
+}
+.icon-logo-six{
+    width: 88px;
+    height: 45px;
+}
+/*======================================== Постоянные клиенты ========================================*/
